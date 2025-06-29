@@ -1,0 +1,33 @@
+/*文章的整体背景，渐变色设置*/
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+#web_bg {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+}
+#page-header {
+	background-image: url(/img/FEA79E948B7C9834EA6E739E93134AB4.jpg);
+}
+
+#aside-content>.card-widget.card-info {
+    /*换成自己图片的地址*/
+    background-image: url(/img/FEA79E948B7C9834EA6E739E93134AB4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: 100%
+}
+
+#footer-wrap
+{
+    background-image: url(/img/FEA79E948B7C9834EA6E739E93134AB4.jpg);
+}

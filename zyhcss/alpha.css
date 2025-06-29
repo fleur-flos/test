@@ -1,0 +1,90 @@
+/* 主页所有文章页面背景 */
+
+#recent-posts>.recent-post-item,
+.recent-post-item:hover
+{    
+    background: rgba(255, 255, 255, .7) !important;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 1.0) !important;
+    /* 以下代表透明度为0.5 */
+    border: solid;
+    border-width:  5px 5px 5px 5px;
+    border-color: rgba(255,221,100,0.4);
+    border-radius: 25px !important;
+}
+
+#aside_content .card-widget,
+#recent-posts>.recent-post-item,
+.layout_page>div:first-child:not(.recent-posts),
+.layout_post>#page,
+.layout_post>#post,
+.read-mode .layout_post>#post,
+.recent-post-item
+{
+    /* 以下代表透明度为0.5 */
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.6) !important;
+    background: rgba(255, 255, 255, .4) !important;
+    border: solid;
+    border-width:  0px 0px 0px 0px;
+    border-color: rgba(255,221,100,0.4);
+    border-radius: 25px !important;
+}
+
+/*侧边栏页面*/
+#aside-content>.card-widget {
+    background: rgba(255, 255, 255, .6);
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3) !important;
+    /* 以下代表透明度为0.5 */
+    border: solid;
+    border-width:  0px 0px 0px 0px;
+    border-color: rgba(255,221,100,0.4);
+    border-radius: 25px !important;
+}
+#aside-content>.card-widget:hover {
+    background: rgba(255, 255, 255, .6);
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 1.0) !important;
+    /* 以下代表透明度为0.5 */
+    border: solid;
+    border-width:  5px 5px 5px 5px;
+    border-color: rgba(255,221,100,0.4);
+    border-radius: 25px !important;
+}
+
+#aside-content>.sticky_layout>.card-widget {
+    background: rgba(255, 255, 255, .6);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3) !important;
+    /* 以下代表透明度为0.5 */
+    border: solid;
+    border-width:  0px 0px 0px 0px;
+    border-color: rgba(255,221,100,0.4);
+    border-radius: 25px !important;
+}
+
+#aside-content>.sticky_layout>.card-widget:hover {
+    background: rgba(255, 255, 255, .6);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 1.0) !important;
+    /* 以下代表透明度为0.5 */
+    border: solid;
+    border-width:  5px 5px 5px 5px;
+    border-color: rgba(255,221,100,0.4);
+    border-radius: 25px !important;
+}
+
+/*文章页面*/
+.layout>#post {
+    background: rgba(255, 255, 255, .0) !important;
+
+    border-radius: 25px !important;
+}
+
+/*分类页面*/
+.layout>#page {
+
+    background: rgba(255, 255, 255, .0);
+}
+
+/*时间轴页面*/
+.layout>#archive {
+    background: rgba(255, 255, 255, .0);
+}
